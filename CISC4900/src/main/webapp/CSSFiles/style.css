@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+/* Styling only used in headerMk1.html */
+a:link
+ {
+ 	color: white; 
+ 	height: 10px; 
+ 	text-decoration: none;
+ }
+
+a:visited 
+{
+	color: white;
+}
+
+.restaurantTitle {
+	color: Red;
+	font-size: 30px;
+	text-align: left;
+}
+
+.links {
+	text-align: right;
+}
+
+
+/* Styling only used in  footer.html */
+.footerTag p {
+	text-align: center;
+	color: white;
+}
+
+/* Styling only used in home.jsp */
+.image {
+	text-align: center;
+	display: block;
+} 
+
+/* Styling only used in home.jsp, footer.html */
+/* .centerImage {
+	text-align: center; 
+	display: block;
+} */
+
+/* Styling only used for login.jsp */
+.loginDiv {
+	max-width: 1904px;
+}
+
+.subDiv1 {
+	 max-width: 250px; 
+	 border: 2px; 
+	 background-color: rgb(144,238,144); 
+	 border-color: black; 
+	 border-style: solid;
+}
+	
+.subDiv2 {
+	color: red; 
+	font-size:12px;
+}
+
+.subDiv3 {
+	font-size: 12px;
+}
+
+/* Styling only used for register.jsp */
+.regDiv {
+	max-width:1904px;
+}
+
+.subRegDiv1 {
+	max-width:200px; 
+	border:2px; 
+	background-color:rgb(144,238,144); 
+	border-color:black; 
+	border-style:solid;
+}
+
+.subRegDiv2 {
+	color:red;
+	font-size:12px;
+}
+
+.subRegDiv3 {
+	font-size:12px;
+}
+
+
+/* Styling only used for headerMenu.html and headerLocate.html */
+body {
+	margin: 0;
+}
+		
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.left {
+	width: 31%;
+}
+
+.center {
+	width: 31%;
+}
+
+.right {
+	width: 31%;
+}
+
+.row h1 {
+	font-size: 25px;
+}
+
+.row a {
+	color: Red;
+	font-size: 23px;
+	text-decoration: underline;
+}
+
